@@ -1,0 +1,22 @@
+{
+  "name": "perf2k2/collections",
+  "description": "Classes for store collections of items (scalar,object, etc)",
+  "version": "0.0.1",
+  "type": "library",
+  "keywords": ["collection", "map collection", "list collection", "object collection"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Romannikov Nikita",
+      "email": "perf2k2@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "perf2k2\\collections\\": "src/"
+    }
+  }
+}
