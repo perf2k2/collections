@@ -6,7 +6,7 @@ namespace perf2k2\collections;
  * Базовый класс для хранения коллекций разных типов
  * @package app\core\domain\collections
  */
-abstract class Collection implements \IteratorAggregate
+abstract class Collection implements \IteratorAggregate, \Countable
 {
     protected $data = [];
 
